@@ -48,7 +48,7 @@
     }
 
     .navs .nav-list{
-        font-size: 3rem;
+        font-size: 2rem;
         color: white;
     }
 
@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 32em){
+    .nav{
+        gap: 1rem;
+    }
+
     .logo-text{
         font-size: 3rem;
     }
