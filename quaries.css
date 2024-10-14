@@ -1,0 +1,167 @@
+@media (max-width: 85em) {
+    .foot-grid{
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 63em){
+    .container{
+        padding: 3rem 2rem;
+    }
+
+    .pricing-list-box{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .team-profile-box{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width:57em ){
+    .main-nav-list{
+        display: none;
+    }
+
+    .nav .main-nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .navs .main-nav-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 10rem;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;   
+        background-color: #37517e8e;
+    }
+
+    .navs .nav-list{
+        font-size: 3rem;
+        color: white;
+    }
+
+    .menu{
+        display: flex;
+        font-size: 5rem;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text-box{
+        text-align: center;
+    }
+    
+    .hero-play-box{
+        justify-content: center;
+    }
+    
+    .hero-image{
+        width: 80%;
+    }
+
+    .wwa{
+        flex-direction: column-reverse;
+    }
+
+    .wwa-image{
+        width: 80%;
+    }
+    
+    .value-grid-2{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .features-box{
+        flex-direction: column;
+    }
+
+    .FlexStart{
+        flex-direction: column-reverse;
+    }
+
+    .feature-image{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .feature-image-2{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .blog-box{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 53em){
+    .grid-3-cols{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .foot-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 40em){
+    .faq-box{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .blog-box{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 32em){
+    .logo-text{
+        font-size: 3rem;
+    }
+
+    .grid-3-cols{
+        grid-template-columns: 1fr;
+    }
+
+    .value-grid-2{
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid-box{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .feature-box-2{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .pricing-list-box{
+        grid-template-columns: 1fr;
+    }
+
+    .team-profile-box{
+        grid-template-columns: 1fr;
+    }
+
+    .foot-grid{
+        grid-template-columns: 1fr;
+    }
+}
