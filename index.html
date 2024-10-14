@@ -24,13 +24,13 @@
         <h2 class="logo-text">FlexStart</h2>
       </div>
       <ul class="main-nav-list">
-        <li><a class="nav-list" href="">Home</a></li>
-        <li><a class="nav-list" href="">About</a></li>
-        <li><a class="nav-list" href="">Service</a></li>
-        <li><a class="nav-list" href="">Portfolio</a></li>
-        <li><a class="nav-list" href="">Team</a></li>
-        <li><a class="nav-list" href="">Blog</a></li>
-        <li><a class="nav-list" href="">Contact</a></li>
+        <li><a class="nav-list" href="#home">Home</a></li>
+        <li><a class="nav-list" href="#about">About</a></li>
+        <li><a class="nav-list" href="#service">Service</a></li>
+        <li><a class="nav-list" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-list" href="#team">Team</a></li>
+        <li><a class="nav-list" href="#blog">Blog</a></li>
+        <li><a class="nav-list" href="#contact">Contact</a></li>
       </ul>
       <div class="nav-btn-box">
         <button class="nav-btn">Get Started</button>
@@ -38,7 +38,7 @@
         <ion-icon name="close-outline" class="close hidden"></ion-icon>
       </div>
     </section>
-    <section class="hero container">
+    <section class="hero container" id="home">
       <div class="hero-text-box">
         <h2 class="hero-title">
           We offer modern solutions for growing your business
@@ -58,7 +58,7 @@
       </div>
       <img class="hero-image" src="img/hero-img.png" alt="" />
     </section>
-    <section class="wwa container">
+    <section class="wwa container" id="about">
       <div class="wwa-text-box">
         <h2 class="wwa-titles">WHO WE ARE</h2>
         <h2 class="wwa-title">
@@ -256,7 +256,7 @@
         <img class="feature-image-2" src="img/alt-features.png" alt="" />
       </div>
     </section>
-    <section class="service container">
+    <section class="service container" id="service">
       <div class="titles">
         <p class="title">SERVICES</p>
         <p class="sub-title">Check Our Services</p>
@@ -520,7 +520,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio container">
+    <section class="portfolio container" id="portfolio">
       <div class="titles">
         <p class="title">PORTFOLIO</p>
         <p class="sub-title">Check our latest work</p>
@@ -791,7 +791,7 @@
         </div>
       </div>
     </section>
-    <section class="team">
+    <section class="team" id="team">
       <div class="titles">
         <p class="title">TEAM</p>
         <p class="sub-title">Our hard working team</p>
@@ -878,7 +878,7 @@
         </div>
       </div>
     </section>
-    <section class="recent container">
+    <section class="recent container" id="blog">
       <div class="titles">
         <p class="title">RECENT POSTS</p>
         <p class="sub-title">Recent posts form our Blog</p>
@@ -952,7 +952,7 @@
         </div>
       </div>
     </section>
-    <section class="footer container">
+    <section class="footer container" id="contact">
       <div class="foot-grid">
         <div class="foot-box">
           <div class="nav-logo-box btm">
@@ -995,5 +995,16 @@
         </div>
       </div>
     </section>
+     <div class="login-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 class="mod-header">Sign Up</h2>
+            <input type="email" placeholder="Email" class="email">
+            <input type="text" placeholder="Create Password" class="password">
+            <input type="text" placeholder="Confirm Password" class="password-two">
+            <button class="signup logged">Signup</button>
+            <p class="modal-text">Already have an account? <span>Login</span></p>
+        </div>
+    </div>
   </body>
 </html>
